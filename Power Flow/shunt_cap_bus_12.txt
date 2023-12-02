@@ -1,0 +1,119 @@
+POWER FLOW REPORT
+ 
+P S A T  2.1.11
+ 
+Author:  Federico Milano, (c) 2002-2019
+e-mail:  federico.milano@ucd.ie
+website: faraday1.ucd.ie/psat.html
+ 
+File:  C:\Users\atick\Matlab\Power System Dynamics Project\Power Flow\modified_14_bus_system_PV12
+Date:  01-Dec-2023 17:46:22
+
+
+NETWORK STATISTICS
+
+Buses:                        14         
+Lines:                        16         
+Transformers:                 5          
+Generators:                   6          
+Loads:                        11         
+
+SOLUTION STATISTICS
+
+Number of Iterations:         9          
+Maximum P mismatch [p.u.]     0          
+Maximum Q mismatch [p.u.]     0          
+Power rate [MVA]              100        
+
+POWER FLOW RESULTS
+
+Bus         V           phase       P gen       Q gen       P load      Q load      
+            [p.u.]      [rad]       [p.u.]      [p.u.]      [p.u.]      [p.u.]      
+
+Bus 01      1.06        0           3.7142      1.0369      0           0          
+Bus 02      0.92209    -0.30321     0.38        0.5         0.29892     0.17494    
+Bus 03      0.86986    -0.51476     0           0.4         1.2976      0.26172    
+Bus 04      0.8851     -0.41802     0           0           0.65844     0.0551     
+Bus 04(twt  0.92431    -0.50218     0           0           0           0          
+Bus 05      0.89862    -0.3627      0           0           0.10469     0.02204    
+Bus 06      0.96705    -0.5437      0           0.24        0.15428     0.10331    
+Bus 08      0.96799    -0.50218     0           0.24        0           0          
+Bus 09      0.90976    -0.54618     0           0           0.40636     0.22867    
+Bus 10      0.93006    -0.55552     0           0           0.12398     0.0799     
+Bus 11      0.94514    -0.55085     0           0           0.04821     0.0248     
+Bus 12      1          -0.61239     0           0.38947     0.08403     0.02204    
+Bus 13      0.94593    -0.57729     0           0           0.18596     0.0799     
+Bus 14      0.90385    -0.58367     0           0           0.20525     0.06887    
+
+LINE FLOWS
+
+From Bus    To Bus      Line        P Flow      Q Flow      P Loss      Q Loss      
+                                    [p.u.]      [p.u.]      [p.u.]      [p.u.]      
+
+Bus 02      Bus 05      1           0.31073     0.02439     0.00624    -0.00773    
+Bus 06      Bus 12      2           0.14532    -0.17126     0.00756     0.01573    
+Bus 12      Bus 13      3           0.05374     0.18044     0.00893     0.00808    
+Bus 06      Bus 13      4           0.22137     0.02859     0.00402     0.00791    
+Bus 06      Bus 11      5           0.08975     0.09745     0.00135     0.00284    
+Bus 11      Bus 06      6          -0.08903    -0.10366     0.0013      0.00305    
+Bus 11      Bus 10      7           0.12921     0.17348     0.00127     0.00336    
+Bus 09      Bus 10      8          -0.00306    -0.08828     0.00091     0.00194    
+Bus 09      Bus 14      9           0.13398    -0.03403     0.00223     0.00474    
+Bus 14      Bus 13      10         -0.0735     -0.10764     0.0027      0.0055     
+Bus 01      Bus 02      11          1.956       0.3893      0.22618     0.54484    
+Bus 02      Bus 03      12          0.92662     0.11353     0.04598     0.1603     
+Bus 03      Bus 04      13         -0.41697     0.0915      0.01554     0.01434    
+Bus 01      Bus 05      14          1.7583      0.64761     0.16197     0.62349    
+Bus 05      Bus 04      15          1.095      -0.01788     0.01884     0.04974    
+Bus 02      Bus 04      16          0.57353     0.0316      0.0215      0.03621    
+Bus 05      Bus 06      17          0.70106     0.05207     0           0.12727    
+Bus 04      Bus 09      18          0.20102     0.01922     0           0.02582    
+Bus 04      Bus 04(twt  19          0.33626    -0.06938     0           0.0301     
+Bus 04(twt) Bus 09      20          0.33626     0.12969     0           0.01673    
+Bus 04(twt) Bus 08      21          0          -0.22917     0           0.01083    
+
+LINE FLOWS
+
+From Bus    To Bus      Line        P Flow      Q Flow      P Loss      Q Loss      
+                                    [p.u.]      [p.u.]      [p.u.]      [p.u.]      
+
+Bus 05      Bus 02      1          -0.30449    -0.03212     0.00624    -0.00773    
+Bus 12      Bus 06      2          -0.13776     0.18699     0.00756     0.01573    
+Bus 13      Bus 12      3          -0.04481    -0.17236     0.00893     0.00808    
+Bus 13      Bus 06      4          -0.21735    -0.02068     0.00402     0.00791    
+Bus 11      Bus 06      5          -0.08839    -0.09461     0.00135     0.00284    
+Bus 06      Bus 11      6           0.09034     0.10671     0.0013      0.00305    
+Bus 10      Bus 11      7          -0.12795    -0.17011     0.00127     0.00336    
+Bus 10      Bus 09      8           0.00397     0.09022     0.00091     0.00194    
+Bus 14      Bus 09      9          -0.13175     0.03877     0.00223     0.00474    
+Bus 13      Bus 14      10          0.0762      0.11315     0.0027      0.0055     
+Bus 02      Bus 01      11         -1.7298      0.15554     0.22618     0.54484    
+Bus 03      Bus 02      12         -0.88064     0.04677     0.04598     0.1603     
+Bus 04      Bus 03      13          0.4325     -0.07716     0.01554     0.01434    
+Bus 05      Bus 01      14         -1.5963     -0.02412     0.16197     0.62349    
+Bus 04      Bus 05      15         -1.0762      0.06762     0.01884     0.04974    
+Bus 04      Bus 02      16         -0.55203     0.00461     0.0215      0.03621    
+Bus 06      Bus 05      17         -0.70106     0.0752      0           0.12727    
+Bus 09      Bus 04      18         -0.20102     0.0066      0           0.02582    
+Bus 04(twt) Bus 04      19         -0.33626     0.09948     0           0.0301     
+Bus 09      Bus 04(twt  20         -0.33626    -0.11296     0           0.01673    
+Bus 08      Bus 04(twt  21          0           0.24        0           0.01083    
+
+GLOBAL SUMMARY REPORT
+
+
+TOTAL GENERATION
+
+REAL POWER [p.u.]             4.0942     
+REACTIVE POWER [p.u.]         2.8064     
+
+TOTAL LOAD
+
+REAL POWER [p.u.]             3.5677     
+REACTIVE POWER [p.u.]         1.1213     
+
+TOTAL LOSSES
+
+REAL POWER [p.u.]             0.52651    
+REACTIVE POWER [p.u.]         1.6851     
+
